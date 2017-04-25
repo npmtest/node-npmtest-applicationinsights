@@ -1,4 +1,7 @@
-# test coverage for  [applicationinsights (v0.19.0)](https://github.com/Microsoft/ApplicationInsights-node.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-applicationinsights.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-applicationinsights) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-applicationinsights.svg)](https://travis-ci.org/npmtest/node-npmtest-applicationinsights)
+# npmtest-applicationinsights
+
+#### basic test coverage for  [applicationinsights (v0.19.0)](https://github.com/Microsoft/ApplicationInsights-node.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-applicationinsights.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-applicationinsights) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-applicationinsights.svg)](https://travis-ci.org/npmtest/node-npmtest-applicationinsights)
+
 #### Microsoft Application Insights module for Node.JS
 
 [![NPM](https://nodei.co/npm/applicationinsights.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/applicationinsights)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-applicationinsights/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-applicationinsights/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-applicationinsights/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-applicationinsights/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-applicationinsights/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-applicationinsights/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-applicationinsights/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-applicationinsights/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-applicationinsights/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-applicationinsights/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-applicationinsights/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-applicationinsights/build/coverage.html/index.html)
 
@@ -97,7 +100,8 @@
         "pretest": "find Tests -type f -name \"*.ts\" | xargs tsc --module commonjs",
         "test": "./node_modules/mocha/bin/mocha ./Tests --recursive"
     },
-    "version": "0.19.0"
+    "version": "0.19.0",
+    "bin": {}
 }
 ```
 

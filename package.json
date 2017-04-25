@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [applicationinsights (v0.19.0)](https://github.com/Microsoft/ApplicationInsights-node.js#readme) [![npm package](https://img.shields.io/npm/v/npmtest-applicationinsights.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-applicationinsights) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-applicationinsights.svg)](https://travis-ci.org/npmtest/node-npmtest-applicationinsights)",
+    "description": "#### basic test coverage for  [applicationinsights (v0.19.0)](https://github.com/Microsoft/ApplicationInsights-node.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-applicationinsights.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-applicationinsights) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-applicationinsights.svg)](https://travis-ci.org/npmtest/node-npmtest-applicationinsights)",
     "devDependencies": {
         "applicationinsights": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
